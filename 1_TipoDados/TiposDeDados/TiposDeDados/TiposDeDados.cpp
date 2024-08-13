@@ -67,6 +67,7 @@ int main()
 	dias = idade * 365;
 	horas = dias * 24;
 	minutos = horas  * 60;
+	cout << "Olá " << nome << ", Aqui estão os seus dados:" << endl;
 	cout << "Sua idade em dias e: " << dias << endl;
 	cout << "Sua idade em horas e: " << horas << endl;
 	cout << "Sua idade em minutos e: " << minutos << endl;
